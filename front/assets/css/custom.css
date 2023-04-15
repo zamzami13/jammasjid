@@ -1,0 +1,513 @@
+html,
+body,
+header,
+.wrapper,
+.view {
+}
+
+.rgba-black-light {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rgba-black-light-1 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.rgba-black-light-2 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.fixed-top {
+  /*background-color: #000;*/
+  /*opacity: 0.4;*/
+}
+
+.header {
+  /*background-color: #000;*/
+  /*opacity: 0.4;*/
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  /* background-color: #000 !important; */
+  opacity: 0.8 !important;
+  color: #f6f7f8;
+}
+
+.footer-kajian {
+  position: fixed;
+  bottom: 520px;
+}
+
+.waktu-shalat-b {
+  /*background-color: #000;*/
+  opacity: 0.88;
+}
+
+.opa-1 {
+  opacity: 0.1;
+}
+
+.opa-2 {
+  opacity: 0.2;
+}
+
+.opa-3 {
+  opacity: 0.3;
+}
+
+.running-text {
+  /*background-color: #000;*/
+  /*opacity: 0.7;*/
+}
+
+.countdown-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: #f6f7f8;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .flex-centerx {
+    position: fixed !important;
+    bottom: 150px !important;
+    min-width: 100% !important; 
+    min-height: 100% !important;
+} */
+
+div.slide > h1 {
+  font-family: "LPMQ", sans-serif;
+  font-weight: 400;
+  direction: rtl;
+  text-shadow: -5px 2px 2px #000;
+  word-spacing: 4px;
+}
+
+div.slide > p {
+  color: #f6f7f8;
+  text-shadow: 3px 3px #000;
+  /* -webkit-text-stroke: 1.5px #000; */
+}
+
+/* jadwal imam */
+
+.fs-general,
+.fs-jumat {
+  /* background-color: #000;
+    opacity: 0.6; */
+}
+
+@font-face {
+  font-family: "LPMQ";
+  src: url("../font/LPMQ.ttf") format("truetype"),
+    url("../font/LPMQ.ttf") format("truetype");
+}
+
+/* ubuntu-300 - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Light"), local("Ubuntu-Light"),
+    url("../font/Ubuntu/ubuntu-v12-latin-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-300.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-300italic - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-300italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Light Italic"), local("Ubuntu-LightItalic"),
+    url("../font/Ubuntu/ubuntu-v12-latin-300italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-300italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../font/Ubuntu/ubuntu-v12-latin-300italic.woff") format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-300italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-300italic.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-regular - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"),
+    url("../font/Ubuntu/ubuntu-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../font/Ubuntu/ubuntu-v12-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-regular.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-italic - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Italic"), local("Ubuntu-Italic"),
+    url("../font/Ubuntu/ubuntu-v12-latin-italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../font/Ubuntu/ubuntu-v12-latin-italic.woff") format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-italic.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-500 - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"),
+    url("../font/Ubuntu/ubuntu-v12-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-500.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-500italic - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-500italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Medium Italic"), local("Ubuntu-MediumItalic"),
+    url("../font/Ubuntu/ubuntu-v12-latin-500italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-500italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../font/Ubuntu/ubuntu-v12-latin-500italic.woff") format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-500italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-500italic.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-700 - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"),
+    url("../font/Ubuntu/ubuntu-v12-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-700.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-700italic - latin */
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../font/Ubuntu/ubuntu-v12-latin-700italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Ubuntu Bold Italic"), local("Ubuntu-BoldItalic"),
+    url("../font/Ubuntu/ubuntu-v12-latin-700italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Ubuntu/ubuntu-v12-latin-700italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../font/Ubuntu/ubuntu-v12-latin-700italic.woff") format("woff"),
+    /* Modern Browsers */ url("../font/Ubuntu/ubuntu-v12-latin-700italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/Ubuntu/ubuntu-v12-latin-700italic.svg#Ubuntu") format("svg");
+  /* Legacy iOS */
+}
+
+.blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect; // for android
+  animation: 2s linear infinite condemned_blink_effect;
+}
+
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.kajian {
+  /*min-height: 150px;*/
+}
+
+.kaj-ket-ust {
+  color: #a3e635;
+}
+
+.kaj-ket-materi {
+}
+
+.kaj-ket-waktu {
+}
+
+.today-imam-head,
+.tomorrow-imam-head,
+.imam-head-terbit,
+.ket-head {
+  color: #f6f7f8;
+}
+
+.text-color-1 {
+  color: #059669 !important;
+}
+
+.text-color-2 {
+  color: #eab308 !important;
+}
+
+.bg-orange {
+  background-color: #f97316;
+}
+
+.bg-blue {
+  background-color: #2563eb;
+}
+
+.bg-lime {
+  background-color: #84cc16;
+}
+
+.bg-indigo {
+  background-color: #4f46e5;
+}
+
+.bg-teal {
+  background-color: #0891b2;
+}
+
+.bg-red {
+  background-color: #e11d48;
+}
+
+.bg-purple {
+  background-color: #9333ea;
+}
+
+.bg-amber {
+  background-color: #9333ea;
+}
+
+/* .bg-terbit {
+    background-color: #f59e0b;
+}
+
+.bg-subuh {
+    background-color: #2563eb;
+}
+
+.bg-dzuhur {
+    background-color: #e11d48;
+}
+
+.bg-ashar {
+    background-color: #4f46e5;
+}
+
+.bg-maghrib {
+    background-color: #0891b2;
+}
+
+.bg-isya {
+    background-color: #84cc16;
+} */
+
+.bg-terbit {
+  background-color: #047857;
+}
+
+.bg-subuh {
+  background-color: #1d4ed8;
+}
+
+.bg-dzuhur {
+  background-color: #fbbf24;
+}
+
+.bg-ashar {
+  background-color: #4338ca;
+}
+
+.bg-maghrib {
+  background-color: #be123c;
+}
+
+.bg-isya {
+  background-color: #0284c7;
+}
+
+.text-stroke {
+  text-shadow: 1px 1px #fff;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.nama,
+.nama_sub {
+  color: #eab308;
+}
+
+.alamat {
+  color: #f6f7f8;
+}
+
+.jam {
+  color: #dc2626 !important;
+}
+
+.hari {
+  color: #dc2626 !important;
+  /*text-shadow: 0.5px 0.5px 0.5px #f6f7f8;*/
+}
+
+.tanggal_masehi {
+  color: #dc2626 !important;
+  /*text-shadow: 0.5px 0.5px 0.5px #f6f7f8;*/
+}
+
+.tanggal_hijriah {
+  color: #f6f7f8 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #9058cf 0%, #d693e4 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

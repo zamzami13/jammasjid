@@ -1,0 +1,198 @@
+@media (min-width: 1920px) {
+  /*1920x1080*/
+  .header {
+    height: 0 !important;
+  }
+
+  .nama {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .nama_sub {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .kiri {
+    padding-top: 38px;
+  }
+
+  .kanan {
+    padding-top: 18px;
+  }
+
+  .jam {
+    font-size: 90px;
+    font-weight: 900;
+  }
+
+  .hari {
+    font-size: 33px;
+    font-weight: 600;
+  }
+
+  .tanggal_masehi {
+    font-size: 33px;
+    font-weight: 600;
+  }
+  .tanggal_hijriah {
+    font-size: 33px;
+    font-weight: 600;
+  }
+
+  .alamat {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .waktu-shalat > h1 {
+    padding-bottom: 10px;
+    margin-top: -5px;
+    font-size: 66px;
+    font-weight: 900 !important;
+    text-shadow: -2px 2px 2px #000;
+  }
+
+  .waktu-shalat > h2 {
+    text-shadow: -2px 2px 2px #000;
+    padding-top: 10px;
+    font-size: 45px;
+    font-weight: 600 !important;
+  }
+
+  .waktu-shalat-b {
+    margin-bottom: -8px;
+  }
+
+  .running-text {
+    max-height: 70px;
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 80px;
+  }
+
+  .content {
+    margin-top: 180px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    flex: 1;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  .content-text {
+    margin-top: -25px;
+  }
+
+  div.slide > h1 {
+    font-size: 118px;
+    line-height: 2;
+  }
+
+  div.slide > p {
+    font-size: 68px;
+    font-weight: 900;
+  }
+
+  /*countdown*/
+  div.countdown-header > h1.cd-header-text {
+    color: #f6f7f8;
+    font-size: 60px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px blue;
+  }
+
+  .countdown-body {
+    font-size: 350px;
+    font-weight: 900;
+    color: #ff0000;
+  }
+
+  .countdown-footer {
+    font-size: 60px;
+    /*padding-left: 25px;*/
+    -webkit-text-stroke: 1px red;
+  }
+
+  .cd-tiba-adzan {
+    font-size: 160px !important;
+    padding-top: 270px !important;
+    font-weight: 400 !important;
+    color: #ff0000;
+  }
+
+  .cd-tiba-iqomah {
+    font-size: 90px !important;
+    padding-top: 290px !important;
+    font-weight: 400 !important;
+    color: #ff0000;
+  }
+
+  .cd-footer-text {
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  .cd-footer-jawab-adzan {
+    font-size: 33px !important;
+    color: #f6f7f8 !important;
+    -webkit-text-stroke: 1px #f6f7f8 !important;
+  }
+
+  /* end countdown*/
+
+  /* jadwal imam */
+  .fs-general,
+  .fs-jumat {
+    max-height: 90px;
+  }
+
+  .today-imam-head,
+  .tomorrow-imam-head,
+  .imam-head-terbit,
+  .ket-head {
+    padding-top: 5px;
+    margin-bottom: -8px;
+    font-size: 30px !important;
+  }
+
+  .imam-body,
+  .ket-body {
+    font-size: 30px !important;
+    font-weight: 600;
+  }
+
+  .imam-body {
+    margin-top: 28px !important;
+  }
+
+  .kajian {
+    padding-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .kaj-ket-ust {
+    font-size: 35px;
+  }
+
+  .kaj-ket-materi {
+    font-size: 28px;
+  }
+
+  .kaj-ket-waktu {
+    font-size: 28px;
+  }
+
+  .rgba-black-light {
+    padding-bottom: 10px;
+  }
+
+  .fcenter {
+    position: fixed !important;
+    top: 6px !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+  }
+}
